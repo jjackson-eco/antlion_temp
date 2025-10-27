@@ -155,6 +155,10 @@ pupation_pred_plot <-
   scale_y_continuous(limits = c(0,0.4)) +
   theme_test(base_size = 13)
 
+# ggsave(pupation_pred_plot,
+#        filename = "../pupation_predictions_may25.tiff",
+#        width = 15, height = 13, units = "cm", dpi = 600)
+
 ggsave(pupation_pred_plot,
        filename = "output/pupation_predictions_may25.jpeg",
        width = 15, height = 13, units = "cm", dpi = 600)

@@ -221,3 +221,7 @@ mortality_pred_plot <-
 ggsave(mortality_pred_plot,
        filename = "output/mortality_predictions_may25.jpeg",
        width = 27, height = 15, units = "cm", dpi = 600)
+
+# ggsave(mortality_pred_plot,
+#        filename = "../mortality_predictions_may25.tiff",
+#        width = 27, height = 15, units = "cm", dpi = 600)

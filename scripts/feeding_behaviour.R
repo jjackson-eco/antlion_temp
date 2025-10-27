@@ -101,7 +101,7 @@ feeding_plot <-
        colour = "Temperature\ntreatment") +
   theme_test(base_size = 11)
 
-ggsave(feeding_plot, filename = "output/feeding_behaviour.jpeg", width = 14, 
+ggsave(feeding_plot, filename = "../feeding_behaviour.tiff", width = 14, 
        height = 10, units = "cm", dpi = 600)
 
 

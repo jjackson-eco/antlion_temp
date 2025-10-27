@@ -159,5 +159,5 @@ morph_plot <- imago_morph_data %>%
   theme(strip.background = element_blank(),
         strip.text.x = element_text(face = "italic"))
 
-ggsave(morph_plot, filename = "output/morphology_summary_plot_may25.jpeg",
-       width = 21, height = 14, units = "cm", dpi = 600)
+# ggsave(morph_plot, filename = "../morphology_summary_plot_may25.tiff",
+#        width = 21, height = 14, units = "cm", dpi = 600)

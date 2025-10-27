@@ -324,6 +324,13 @@ ggsave(emergence_pred_plot + emergence_peak_value_plot +
        filename = "output/emergence_predictions_may25.jpeg",
        width = 33, height = 15, units = "cm", dpi = 600)
 
+# # for pub (not github)
+# ggsave(emergence_pred_plot + emergence_peak_value_plot +
+#          emergence_peak_day_plot +
+#          plot_layout(ncol = 2, widths = c(3,1), heights = c(2.3,1)),
+#        filename = "../emergence_predictions_may25.tiff",
+#        width = 33, height = 15, units = "cm", dpi = 600)
+
 ### For SI
 ggsave(emergence_pred_plot_raw,
        filename = "output/emergence_prediction_raw_may25.jpeg",
